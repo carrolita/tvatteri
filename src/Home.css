@@ -1,0 +1,228 @@
+.App-header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.hero-image1 {
+  height: 758px;
+  width: 1500px;
+}
+
+
+.welcome-text {
+  font-family: 'Pacifico', cursive;
+  font-size: 48px;
+  color: #005cb2;
+}
+
+.text2 {
+  font-size: 38px;
+  color: #005cb2;
+  padding: 30px;
+}
+
+.logo {
+  height: 800px;
+}
+
+.navbar-color {
+  background-color: #6ab7ff !important;
+}
+
+.button {
+  background-color: #9CCC65 !important;
+  border: none !important;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.button:hover {
+  background-color: #43A047 !important;
+}
+
+.button-kontakta {
+  background-color: #66BB6A !important;
+  border: none !important;
+  width: 100%;
+  height: 54px;
+  box-shadow: 1px 1px 1px gray;
+  font-size: 24px !important;
+}
+
+.button-kontakta:hover {
+  background-color: #4CAF50 !important;
+  box-shadow: 0px 4px 4px darkgray;
+}
+
+.img-card {
+  width: 100%;
+  max-height: 98vh;
+}
+
+.hotel-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.carpet-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.workclother-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-container {
+  box-shadow: 0.5px 0.5px 0.5px gray;
+  padding: 30px;
+  background-color: #ECEFF1;
+  justify-content: center;}
+
+  .image-miljo {
+    width: 1298px;
+    height: 600px;
+    padding: 50px;
+  }
+
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #01579B , #039BE5);
+    padding: 100px;
+    overflow: scroll;
+  }
+
+  .footer-tvattenergi-text {
+    font-size: 28px;
+    color: white;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    background-color: #01579B;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    font-size: 34px;
+    }
+
+  .form-containers-container {
+    padding: 28px;
+  }
+
+  .container-hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url("/vatten.jpg");
+    height: 80vh;
+  }
+
+  .hero-texto {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 88px;
+    padding: 18px;
+    background-color: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }
+
+  @media (max-width: 600px) {
+    .hero-texto {
+      font-size: 50px;
+    }
+  }
+
+  .miljo-text {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    color: #005cb2;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1.8px;
+
+
+  }
+
+  .image-containers {
+    background-color: #F0F8FF;
+    padding: 64px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .hotel-description {
+    background-color: white;
+    color: #0D47A1;
+    letter-spacing: 1.5px;
+    padding: 44px;
+    font-size: 20px;
+    max-width: 1800px;
+
+  }
+
+  .hotel-textile-title {
+    background-color: white;
+    color: #0D47A1;
+    font-size: 27px;
+  }
+
+  .miljö-background {
+    display: flex;
+    justify-content: flex-end;
+    padding: 68px;
+    height: 638px;
+    }
+
+    .fab {
+      color: white;
+    }
+
+    .fab:hover {
+      color: #E0E0E0;
+    }
+
+    .number {
+      color: #B3E5FC;
+    }
+
+    .number:hover {
+      color: #69F0AE;
+    }
+
+    .mail-text {
+      color: #B3E5FC;
+    }
+
+    .mail-text:hover {
+      color: #69F0AE;
+    }
+
+    .slider-container {
+      padding: 64px;
+      background-color: #E3F2FD;
+    }
